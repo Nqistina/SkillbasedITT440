@@ -11,7 +11,7 @@ sockfd.sendall(quoteArray.encode())
 sockfd.close() 
 def main(): 
 
-host = "192.168.0.152" 
+host = "10.0.2.15" 
 port = 8888 
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
