@@ -1,5 +1,5 @@
 from socket import * 
-host = “10.0.2.15”
+host = “10.0.2.5”
 port = 8080
 
 clientSocket = socket(AF_INET, SOCK_STREAM) 
@@ -9,4 +9,4 @@ clientSocket.send(temp.encode()) #sending to server
 tempModified = clientSocket.recv(1024) 
 print('Your input in fahrenheit is:') 
 print(tempModified.decode('utf8','strict')) 
-clientSocket.close()  
+clientSocket.close() 
