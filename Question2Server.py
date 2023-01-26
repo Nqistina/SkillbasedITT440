@@ -15,3 +15,4 @@ tempFahrenheit = (tempCelsius*1.8)+32
 tempModified=str(tempFahrenheit) 
 connectionSocket.send(tempModified.encode()) 
 connectionSocket.close()
+
